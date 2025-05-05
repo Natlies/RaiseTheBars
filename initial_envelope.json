@@ -1,0 +1,276 @@
+        {
+            "data": [
+                {
+                    "zsurveyUrl": null,
+                    "data": "",
+                    "errorType": 0,
+                    "errorData": null,
+                    "metadata": {
+                        "QuestComponent": {
+                            "activeQuests": {
+                                "expansion_unlock_14_15": {
+                                    "m_hasExpired": false,
+                                    "m_startTime": 1344868738.0,
+                                    "m_endTime": 0,
+                                    "m_progress": {
+                                        "BASIC_CREDIT_TASK": {
+                                            "count": 951,
+                                            "locked": false,
+                                            "uniqueObjects": []
+                                        },
+                                        "RECOMMENDATION_TASK": {
+                                            "count": 0,
+                                            "locked": false,
+                                            "uniqueObjects": []
+                                        },
+                                        "MASTERY_TASK": {
+                                            "count": 4,
+                                            "locked": false,
+                                            "uniqueObjects": []
+                                        }
+                                    },
+                                    "m_awarded": false,
+                                    "m_showHighlightedIcon": false,
+                                    "m_new": true,
+                                    "m_completedTaskKeys": []
+                                },
+                                "expansion_unlock_16_17": {
+                                    "m_hasExpired": false,
+                                    "m_startTime": 1344868738.0,
+                                    "m_endTime": 0,
+                                    "m_progress": {
+                                        "BASIC_CREDIT_TASK": {
+                                            "count": 951,
+                                            "locked": false,
+                                            "uniqueObjects": []
+                                        },
+                                        "RECOMMENDATION_TASK": {
+                                            "count": 0,
+                                            "locked": false,
+                                            "uniqueObjects": []
+                                        },
+                                        "MASTERY_TASK": {
+                                            "count": 4,
+                                            "locked": false,
+                                            "uniqueObjects": []
+                                        }
+                                    },
+                                    "m_awarded": false,
+                                    "m_showHighlightedIcon": false,
+                                    "m_new": true,
+                                    "m_completedTaskKeys": []
+                                },
+                                "expansion_unlock_17_16": {
+                                    "m_hasExpired": false,
+                                    "m_startTime": 1344868738.0,
+                                    "m_endTime": 0,
+                                    "m_progress": {
+                                        "BASIC_CREDIT_TASK": {
+                                            "count": 951,
+                                            "locked": false,
+                                            "uniqueObjects": []
+                                        },
+                                        "RECOMMENDATION_TASK": {
+                                            "count": 0,
+                                            "locked": false,
+                                            "uniqueObjects": []
+                                        },
+                                        "MASTERY_TASK": {
+                                            "count": 4,
+                                            "locked": false,
+                                            "uniqueObjects": []
+                                        }
+                                    },
+                                    "m_awarded": false,
+                                    "m_showHighlightedIcon": false,
+                                    "m_new": true,
+                                    "m_completedTaskKeys": []
+                                },
+                                "buildable_env_harverstable_supplier_grocerystore_buildable": {
+                                    "m_hasExpired": false,
+                                    "m_startTime": 1344868914.0,
+                                    "m_endTime": 0,
+                                    "m_progress": {
+                                        "task_0": {
+                                            "count": 0,
+                                            "locked": false,
+                                            "uniqueObjects": []
+                                        },
+                                        "task_1": {
+                                            "count": 0,
+                                            "locked": false,
+                                            "uniqueObjects": []
+                                        }
+                                    },
+                                    "m_awarded": false,
+                                    "m_showHighlightedIcon": false,
+                                    "m_new": true,
+                                    "m_completedTaskKeys": []
+                                },
+                                "expansion_unlock_16_13": {
+                                    "m_hasExpired": false,
+                                    "m_startTime": 1344868914.0,
+                                    "m_endTime": 0,
+                                    "m_progress": {
+                                        "BASIC_CREDIT_TASK": {
+                                            "count": 951,
+                                            "locked": false,
+                                            "uniqueObjects": []
+                                        },
+                                        "RECOMMENDATION_TASK": {
+                                            "count": 0,
+                                            "locked": false,
+                                            "uniqueObjects": []
+                                        },
+                                        "MASTERY_TASK": {
+                                            "count": 4,
+                                            "locked": false,
+                                            "uniqueObjects": []
+                                        }
+                                    },
+                                    "m_awarded": false,
+                                    "m_showHighlightedIcon": false,
+                                    "m_new": true,
+                                    "m_completedTaskKeys": []
+                                },
+                                "upgrade_cookstation_grill_1": {
+                                    "m_hasExpired": false,
+                                    "m_startTime": 1344919583.0,
+                                    "m_endTime": 0,
+                                    "m_progress": {
+                                        "TASK_1": {
+                                            "count": 0,
+                                            "locked": false,
+                                            "uniqueObjects": []
+                                        },
+                                        "TASK_2": {
+                                            "count": 0,
+                                            "locked": false,
+                                            "uniqueObjects": []
+                                        },
+                                        "TASK_3": {
+                                            "count": 0,
+                                            "locked": false,
+                                            "uniqueObjects": []
+                                        },
+                                        "TASK_4": {
+                                            "count": 0,
+                                            "locked": false,
+                                            "uniqueObjects": []
+                                        },
+                                        "TASK_5": {
+                                            "count": 0,
+                                            "locked": false,
+                                            "uniqueObjects": []
+                                        }
+                                    },
+                                    "m_awarded": false,
+                                    "m_showHighlightedIcon": false,
+                                    "m_new": true,
+                                    "m_completedTaskKeys": []
+                                }
+                            },
+                            "completedQuests": {
+                                "expansion_unlock_16_14": {
+                                    "m_hasExpired": false,
+                                    "m_startTime": 1344868903.0,
+                                    "m_endTime": 1344868909.0,
+                                    "m_progress": {
+                                        "BASIC_CREDIT_TASK": {
+                                            "count": 327,
+                                            "locked": false,
+                                            "uniqueObjects": []
+                                        },
+                                        "MASTERY_TASK": {
+                                            "count": 1,
+                                            "locked": false,
+                                            "uniqueObjects": []
+                                        }
+                                    },
+                                    "m_awarded": true,
+                                    "m_showHighlightedIcon": false,
+                                    "m_new": true,
+                                    "m_completedTaskKeys": []
+                                },
+                                "quest_r0_ginger_teach_expansions": {
+                                    "m_hasExpired": false,
+                                    "m_startTime": 1344868885.0,
+                                    "m_endTime": 1344868915.0,
+                                    "m_progress": {
+                                        "task_1": {
+                                            "count": 1,
+                                            "locked": false,
+                                            "uniqueObjects": []
+                                        }
+                                    },
+                                    "m_awarded": true,
+                                    "m_showHighlightedIcon": false,
+                                    "m_new": false,
+                                    "m_completedTaskKeys": []
+                                },
+                                "quest_r1_ginger_teach_full_screen": {
+                                    "m_hasExpired": false,
+                                    "m_startTime": 1344868915.0,
+                                    "m_endTime": 1344868981.0,
+                                    "m_progress": {
+                                        "task_1": {
+                                            "count": 1,
+                                            "locked": false,
+                                            "uniqueObjects": []
+                                        },
+                                        "task_2": {
+                                            "count": 1,
+                                            "locked": false,
+                                            "uniqueObjects": []
+                                        }
+                                    },
+                                    "m_awarded": true,
+                                    "m_showHighlightedIcon": false,
+                                    "m_new": false,
+                                    "m_completedTaskKeys": []
+                                }
+                            },
+                            "preActiveQuests": {
+                                "quest_r1_bello_teach_decorating": {
+                                    "m_hasExpired": false,
+                                    "m_startTime": 1344868981.0,
+                                    "m_endTime": 0,
+                                    "m_progress": {
+                                        "task_1": {
+                                            "count": 1,
+                                            "locked": false,
+                                            "uniqueObjects": []
+                                        },
+                                        "task_2": {
+                                            "count": 0,
+                                            "locked": false,
+                                            "uniqueObjects": []
+                                        }
+                                    },
+                                    "m_awarded": false,
+                                    "m_showHighlightedIcon": false,
+                                    "m_new": true,
+                                    "m_completedTaskKeys": []
+                                }
+                            }
+                        }
+                    },
+                    "serverTime": 1345092853.0,
+                    "timezoneOffset": -25200,
+                    "backTrace": null,
+                    "elapsedTime": 1.2735741138458252
+                }
+            ],
+            "errorType": 0,
+            "errorData": "",
+            "zySig": {
+                "zySnid": 1,
+                "zyAuthHash": "d57b3e1105b7fa00f5adc4f109313308",
+                "zySig": "11fc3ac487a4cffd12199326919d96cf1c8b3b51c191ecba57faf12cddbcd266"
+            },
+            "amfMaxWait": 15000,
+            "amfMinPerBatch": 8,
+            "amfMaxPerBatch": 8,
+            "amfMaxQueued": 30,
+            "amfEnableSlowBatchRetries": false
+        }

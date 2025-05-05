@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+	<link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+	   <script type="text/javascript">
+
+     //   function getUserInfo() {
+		//	console.log("getUserInfo called");
+		//	inner_getUserInfo();
+		//	return {
+		//		'zid': {{ zid | default('player_unknown') }},
+		//		'first_name': {{  user.name | tojson }},
+		//		'name': {{ user.name | tojson }},
+		//		"sex": 'F',
+		//	 	'pic_square': ''
+		//	};
+	//	}
+
+		var g_userInfo = {"zid":"{{ zid | default('player_unknown') }}",
+		"first_name":{{ user.name | tojson }},
+		"last_name":{{ user.name | tojson }},
+		"name":{{  user.name | tojson }},
+		"email":"                      ",
+		"sex":"F",
+		"birthday_date":0,
+		"pic":"","pic_square":"","pic_normal":"","pic_big":"","pic_small":"","last_login":0,
+		"is_app_user":true,"locale":"en_US","allowed_restrictions":"",
+		"player_id":"1",
+		"identities":{"           ":"1","           ":"22","           ":"104",},
+		"uid":"{{ zid | default('player_unknown') }}",
+		};
+
+
+
+
+		</script>
+        <script src="js/flash_integration.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="game_object" style="width: 1000px; min-height: 750px; display: inline-block; margin: 0; padding: 0; border: 0;">
+											<object codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" WIDTH="1000" HEIGHT="750" id="ea" ALIGN="">
+												<param NAME=movie VALUE="swf/Game.74708.swf">
+												<param name=FlashVars value="recordLongTransactions=true&amfBatchOverrides=&swfLocation=assets/Game.a35e0ccaa60f417447aeed760afb511b6e675e17.lzma.swf&zcache_gameswf=true&m_zCacheNamespace=assets&asset_url=assets/&zcache_url=assets/ZCache.1342579863.swf&preloader_image=assets/cw2_preloader__b27fa.swf&serverTime={{ time | default(1308211688) }}&is_staging=true&generateSchema=1&sn_app_url=&stats=1">  <!--serverTime=1565300889& mute=true& &zlingshot_zoom= skipFacebook=false&decouple_from_facebook=false&decoupled_facebook_id=5452 -->
+												<param NAME=quality VALUE=high>
+												<param NAME=bgcolor VALUE=#333399>
+												<param name="allowFullScreen" value="true" />
+												<!--<embed id="game_embed" src="ThePreloader.swf" allowFullScreen="true" FlashVars="amfBatchOverrides=&swfLocation=assets/Game.a35e0ccaa60f417447aeed760afb511b6e675e17.lzma.swf&zcache_gameswf=true&m_zCacheNamespace=assets&asset_url=assets/&zcache_url=assets/ZCache.1342579863.swf&preloader_image=assets/cw2_preloader__b27fa.swf&serverTime={{ time | default(1308211688) }}&is_staging=true&debugMode=true&generateSchema=1&sn_app_url=&stats=1" quality=high bgcolor="#333399" WIDTH="1000" HEIGHT="750" NAME="ea" ALIGN="" TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer">-->
+												<embed id="game_embed" src="assets/Game.a35e0ccaa60f417447aeed760afb511b6e675e17.lzma.lzma.swf" allowFullScreen="true" FlashVars="recordLongTransactions=true&amfBatchOverrides=&swfLocation=assets/Game.a35e0ccaa60f417447aeed760afb511b6e675e17.lzma.swf&zcache_gameswf=true&m_zCacheNamespace=assets&asset_url=assets/&zcache_url=assets/ZCache.1342579863.swf&preloader_image=assets/cw2_preloader__b27fa.swf&serverTime={{ time | default(1308211688) }}&is_staging=true&generateSchema=1&sn_app_url=&stats=1" quality=high bgcolor="#333399" WIDTH="1000" HEIGHT="750" NAME="ea" ALIGN="" TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer">
+												</embed>
+											</object>
+										</div>
+</body>
+</html>

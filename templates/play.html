@@ -3339,19 +3339,24 @@
             <div id="flashOuterContainer" style="width:100%">
                 <div id="innerFlashDiv" style="position: absolute; width: 100%; height:100%;">
                     <object id="flashapp" width="100%" height="100%" type="application/x-shockwave-flash" name="flashapp" data="ThePreloader.swf" style="visibility: visible;">
+                            <param NAME=movie VALUE="ThePreloader.swf">
 
-                        <html:div class="mainBox visible" anonid="main" chromedir="ltr">
-                        </html:div>
-                        <html:div class="previewPluginContent" anonid="previewPluginContent">
-                        </html:div>
-                        <html:div style="display:none;">
                             <param name="allowScriptAccess" value="always"></param>
                             <param name="wmode" value="window"></param>
                             <param name="allowFullScreen" value="true"></param>
 <!--                            &decouple_from_facebook=true&decoupled_facebook_id=100-->
                             <param name="flashvars" value="clientOnly=1&debugMode=1&serialInit=true&recordUncaughtClientExceptions=true&recordLongTransactions=true&recordLongInputLocks=true&initDefconLvl=0&background_color=1&amfBatchOverrides=&swfLocation=assets/Game.a35e0ccaa60f417447aeed760afb511b6e675e17.lzma.swf&zcache_gameswf=true&zcache_gamesettings=true&m_zCacheNamespace=assets&zcache_namespace=assets&asset_url=assets/&zcache_url=assets/ZCache.1342579863.swf&preloader_image=assets/cw2_preloader__b27fa.swf&serverTime={{ time | default(1308211688) }}&is_staging=true&generateSchema=1&sn_app_url=&stats=1">  <!-- -->
+                            <embed id="game_embed" src="assets/Game.a35e0ccaa60f417447aeed760afb511b6e675e17.lzma.lzma.swf" allowFullScreen="true" FlashVars="clientOnly=1&debugMode=1&serialInit=true&recordUncaughtClientExceptions=true&recordLongTransactions=true&recordLongInputLocks=true&initDefconLvl=0&background_color=1&amfBatchOverrides=&swfLocation=assets/Game.a35e0ccaa60f417447aeed760afb511b6e675e17.lzma.swf&zcache_gameswf=true&zcache_gamesettings=true&m_zCacheNamespace=assets&zcache_namespace=assets&asset_url=assets/&zcache_url=assets/ZCache.1342579863.swf&preloader_image=assets/cw2_preloader__b27fa.swf&serverTime={{ time | default(1308211688) }}&is_staging=true&generateSchema=1&sn_app_url=&stats=1" quality=high bgcolor="#333399" WIDTH="1000" HEIGHT="750" NAME="ea" ALIGN="" TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer">
+
+                        <html:div class="mainBox visible" anonid="main" chromedir="ltr">
+                        </html:div>
+                        <html:div class="previewPluginContent" anonid="previewPluginContent">
+                        </html:div>
+                        <html:div style="">
+
 						</param>
                         </html:div>
+
                     </object>
                 </div>
                 <div id="screenshotFrame" class="offscreen" style="position: absolute">

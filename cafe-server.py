@@ -374,7 +374,43 @@ def assets(path):
         return send_from_directory("assets", path)
     except Exception as error:
         if "cw2_" in path and ".swf" in path:
-            if "anim_" in path and "walk" in path:
+            if "ch_" in path and "eyes" in path:
+                print(error)
+                print("substitutingX", path)
+                return send_from_directory("assets", "cw2_ch_eyes_kitten_sparkle_hazel__cd4dd.swf")
+            elif "ch_" in path and "head" in path:
+                print(error)
+                print("substitutingX", path)
+                return send_from_directory("assets", "cw2_ch_head_pointychin_violinist__337ec.swf")
+            elif "ch_" in path and "nose" in path:
+                print(error)
+                print("substitutingX", path)
+                return send_from_directory("assets", "cw2_ch_eyes_kitten_sparkle_hazel__cd4dd.swf")
+            elif "ch_" in path and "body" in path:
+                print(error)
+                print("substitutingX", path)
+                return send_from_directory("assets", "cw2_ch_bodyfrontaccessory_apron_white_waiter__ea15e.swf")
+            elif "ch_" in path and "mouth" in path:
+                print(error)
+                print("substitutingX", path)
+                return send_from_directory("assets", "cw2_ch_f_mouth_vamp_fang_crimson__db8c3.swf")
+            elif "ch_" in path and "shoes" in path:
+                print(error)
+                print("substitutingX", path)
+                return send_from_directory("assets", "cw2_ch_f_shoes_ballet_flat_rouge__af3f9.swf")
+            elif "ch_" in path and "hair" in path:
+                print(error)
+                print("substitutingX", path)
+                return send_from_directory("assets", "cw2_ch_f_hair_unicorn_turquoise__bbcb7.swf")
+            elif "ch_" in path and "dress" in path:
+                print(error)
+                print("substitutingX", path)
+                return send_from_directory("assets", "cw2_ch_f_dress_lolita_bubblegum__62b81.swf")
+            elif "ch_" in path and "pants" in path:
+                print(error)
+                print("substitutingX", path)
+                return send_from_directory("assets", "cw2_ch_f_pants_tights_candy_cane__9dece.swf")
+            elif "anim_" in path and "walk" in path:
                 print(error)
                 print("substituting2", path)
                 return send_from_directory("assets", "cw2_anim_story_jamie_oliver_walk__3af14.swf")
